@@ -13,17 +13,15 @@
       <version>2.3</version>
 </dependency>
 ```
-配置boot(此处是`xin.yuki.id.EnableIdGenerator`):
+使用IdService:
 ```
 
-import xin.yuki.id.EnableIdGenerator;
 import com.lxm.idgenerator.service.intf.IdService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EnableIdGenerator
 public class ServerSampleApplication {
 
 
