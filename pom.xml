@@ -8,7 +8,7 @@
 
     <name>id-generator-spring-boot</name>
     <description>a spring boot starter for id generator</description>
-    <version>2.3</version>
+    <version>2.3-1</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -28,17 +28,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>http://repo1.maven.org/maven2/</url>
-        </repository>
-        <repository>
-            <id>iwanttomakemoney_admin</id>
-            <url>https://gitee.com/iwanttomakemoney_admin/maven/raw/master/repository</url>
-        </repository>
-    </repositories>
 
     <distributionManagement>
         <snapshotRepository>

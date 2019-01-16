@@ -7,11 +7,11 @@
     <parent>
         <groupId>xin.yuki</groupId>
         <artifactId>id-generator-spring-boot</artifactId>
-        <version>2.3</version>
+        <version>2.3-1</version>
     </parent>
 
     <artifactId>id-generator-spring-boot-autoconfigure</artifactId>
-    <version>2.3</version>
+    <version>2.3-1</version>
     <name>id-generator-spring-boot-autoconfigure</name>
 
     <dependencies>
@@ -25,9 +25,9 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.lxm</groupId>
+            <groupId>xin.yuki</groupId>
             <artifactId>id-generator-interface</artifactId>
-            <version>${project.version}</version>
+            <version>2.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework</groupId>
@@ -40,9 +40,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.lxm</groupId>
+            <groupId>xin.yuki</groupId>
             <artifactId>id-generator-core</artifactId>
-            <version>${project.version}</version>
+            <version>2.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework</groupId>
